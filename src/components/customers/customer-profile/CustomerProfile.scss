@@ -1,0 +1,33 @@
+.customer-profile {
+    display: flex;
+    height: 90vh;
+
+    .customer-info {
+        border-right: 1px solid black;
+    }
+    .rental-info div{
+        display: inline-block;
+        border-color: aquamarine;
+        border-radius: 10px;
+        border-style: solid;
+        margin: 1px;
+        padding: 1px;
+    }
+
+    .customer-rentals {
+        width: 70%;
+
+        .customer-rental {
+            width: 100%;
+            border: 1px solid black;
+            padding: 10px;
+            border-radius: 10px;
+            margin: 20px;
+            display: flex;
+            justify-content: space-between;
+            .Delete {
+                border: 3px solid tomato;
+            }
+        }
+    }
+}
