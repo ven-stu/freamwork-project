@@ -1,0 +1,5 @@
+1.Десен клик в папката на проекта и избиране на опция "отвори с visual studio code"
+2.view -> terminal
+3. пишем npm run start-json-server
+4. пишем npm run start
+5. збираме секция от менюто
